@@ -1,0 +1,22 @@
+
+/**
+ * Mouseflow
+ */
+
+.logo[data-logo="Mouseflow"] {
+  width: 4.473654973em;
+  /* (692.571/154.811) * (1) - 0 */
+}
+
+.logo[data-logo="Mouseflow"] > * {
+  background-image: url(images/logo.svg);
+  margin: 0;
+}
+
+.logo[data-logo="Mouseflow"][data-color="black"] > * {
+  background-image: url(images/logo-black.svg);
+}
+
+.logo[data-logo="Mouseflow"][data-color="white"] > * {
+  background-image: url(images/logo-white.svg);
+}
